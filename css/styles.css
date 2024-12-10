@@ -1,0 +1,145 @@
+.fondoYLetra {
+    font-family: 'Lobster', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #F7E7CE; 
+    color: #2c3e50; 
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F7E7CE; 
+}
+
+
+.btn {
+    background-color: transparent;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: #c0392b; 
+    text-decoration: underline;
+}
+
+
+.navbar-birriuchan {
+    background-color: #c0392b; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-birriuchan .nav-item a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.navbar-birriuchan .nav-item a:hover {
+    color: #f39c12; 
+}
+
+
+.titulo-principal {
+    font-family: 'Lobster', cursive;
+    font-size: 3rem;
+    color: #c0392b;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+
+.descripcion {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    color: #2c3e50;
+    line-height: 1.8;
+    text-align: justify;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.resaltado {
+    color: #f39c12;
+    font-weight: bold;
+}
+
+.card-container {
+    border: 2px solid #c0392b; 
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #fdfdfd; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    transition: transform 0.3s ease;
+}
+
+.card-container:hover {
+    transform: scale(1.05); 
+}
+
+.card-container img {
+    max-height: 250px;
+    width: 100%; 
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.titulo-card {
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+    color: #c0392b;
+    margin-bottom: 1rem;
+}
+
+.texto-card {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    color: #2c3e50;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+
+.row {
+    margin-bottom: 3rem;
+    padding: 1rem;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+.navbar-toggler {
+    border: 1px solid #f39c12;
+}
+
+.navbar-toggler-icon {
+    color: #f39c12;
+}
+
+@media (max-width: 768px) {
+    .titulo-principal {
+        font-size: 2.5rem;
+    }
+
+    .descripcion {
+        font-size: 1.1rem;
+    }
+
+    .card-container {
+        padding: 15px;
+    }
+
+    .card-container img {
+        max-height: 200px;
+    }
+}

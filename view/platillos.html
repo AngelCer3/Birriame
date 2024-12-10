@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../public/css/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="../public/css/bootstrap/bootstrap.min.css.map">
+    <link rel="stylesheet" href="../public/js/jquery/jquery.min.js" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" href="../img/logoBirriuchan.webp" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+    <title>BIRRIUCHAN</title>
+  </head>
+  <body class="fondoYLetra">
+    <nav class="navbar navbar-expand-lg navbar-birriuchan">
+        <a href="../index.html">
+          <img src="../img/logoBirriuchan.webp" class="navbar-brand" alt="Logo Birriuchan" width="100" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+          <span><img src="../img/IconoDeNav.webp" alt="Menu" width="25" /></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="btn btn-link text-white" href="./platillos.html"><b>Platillos</b></a>
+            </li>
+            <li class="nav-item">
+              <a class="btn btn-link text-white" href="./combos.html"><b>Combos y Promociones</b></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    <div class="container mt-5">
+        <h1 class="titulo-principal text-center" data-aos="fade-right">Ingredientes y Preparacion de Platillo</h1>
+        <div class="row align-items-center mt-5 card-container" data-aos="flip-left">
+          <div class="col-md-6">
+            <img src="../img/ingredientes.webp" class="img-fluid rounded" alt="Ingredientes" />
+          </div>
+          <div class="col-md-6">
+            <h2 class="titulo-card">La importancia de los ingredientes</h2>
+            <p class="texto-card">
+              En Birriuchan, creemos que la calidad de nuestros platillos comienza con 
+              los ingredientes. Cada elemento es seleccionado cuidadosamente para garantizar 
+              frescura, sabor y autenticidad en cada bocado. Desde la carne hasta las especias, 
+              cada componente cuenta una historia de tradición y pasión culinaria.
+            </p>
+          </div>
+        </div>
+      
+        
+        <div class="row align-items-center mt-5 card-container" data-aos="zoom-in-down">
+          <div class="col-md-6 order-md-2">
+            <img src="../img/ingredientes2.webp" class="img-fluid rounded" alt="Ingredientes Principales" />
+          </div>
+          <div class="col-md-6 order-md-1">
+            <h2 class="titulo-card">Ingredientes Principales</h2>
+            <p class="texto-card">
+              Descubre los ingredientes que hacen única a nuestra Birriuchan. Desde las mejores 
+              carnes hasta los condimentos más aromáticos, cada detalle ha sido pensado para 
+              ofrecerte una experiencia culinaria incomparable.
+            </p>
+            <button class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#modalIngredientes">
+              Ver Ingredientes
+            </button>
+          </div>
+        </div>
+
+        <div class="row align-items-center mt-5 card-container" data-aos="zoom-out-up">
+            <div class="col-md-6">
+              <img src="../img/caracteristicas.webp" class="img-fluid rounded" alt="Características del Producto" />
+            </div>
+            <div class="col-md-6">
+              <h2 class="titulo-card">Características del Producto</h2>
+              <p class="texto-card">
+                <strong>Ingredientes:</strong> Birriuchan combina carne de res o chivo, cocida lentamente en un caldo especiado con chiles tradicionales, con un toque innovador: plátanos fritos, arepas y salsas típicas de la región que complementan cada bocado.
+              </p>
+              <p class="texto-card">
+                <strong>Sabor:</strong> La unión de la intensidad especiada de la birria y la frescura de los ingredientes característicos del Maracuchan crea una experiencia culinaria llena de contrastes, cálida y deliciosa.
+              </p>
+              <p class="texto-card">
+                <strong>Textura:</strong> Disfruta de la suavidad de la carne jugosa junto con la crocancia de los plátanos fritos y la esponjosidad de las arepas, logrando una mezcla que deleita cada sentido.
+              </p>
+            </div>
+          </div>
+      </div>
+      
+      <div class="modal fade" id="modalIngredientes" tabindex="-1" aria-labelledby="modalIngredientesLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title titulo-card" id="modalIngredientesLabel">Ingredientes Principales</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <ul class="texto-card">
+                <li><strong>Carne:</strong> Carne de res (chamorro, costilla o carne para guisar), Carne de chivo (opcional).</li>
+                <li><strong>Sopa Maruchan:</strong> Nuestra base para el platillo.</li>
+                <li><strong>Especias y Condimentos:</strong> Chiles secos (guajillo, ancho, pasilla), ajo, cebolla, comino, orégano seco, sal y pimienta.</li>
+                <li><strong>Ingredientes de Birriuchan:</strong> Queso (opcional), salsas especiales como ajo o ají.</li>
+                <li><strong>Complementos y Guarniciones:</strong> Cilantro fresco, limones, chiles frescos, rodajas de aguacate (opcional).</li>
+              </ul>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <footer class="text-center mt-5 p-3" style="background-color: #333; color: white;">
+        <p>© 2024 Birriuchan. Todos los derechos reservados.</p>
+        <p>
+        Síguenos en nuestras redes sociales y usa nuestros hashtags: <br />
+        <span style="color: #ffcc00;">
+            #birria #maruchan #comida #fusion #promoción #birriuchan #ramen #mexicana
+        </span>
+        </p>
+    </footer>
+      
+    
+      
+
+
+    <script src="../js/mascaraDeCarga/jquery-3.2.1.min.js"></script>
+    <script src="../js/mascaraDeCarga/jquery.blockUI.js"></script>
+    <script src="../js/mascaraDeCarga/mascara.js"></script>
+    <script src="../public/js/bootstrap/bootstrap.min.js"></script>
+    <script src="../public/js/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+  </body>
+</html>
